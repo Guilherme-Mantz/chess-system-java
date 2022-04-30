@@ -82,7 +82,7 @@ public class ChessMatch {
 	
 	private void nextTurn() {
 		turn++;
-		currentPlayer = (currentPlayer == Color.WHITE)? Color.BLACK : Color.BLACK;
+		currentPlayer = (currentPlayer == Color.WHITE)? Color.BLACK : Color.WHITE;
 	}
 	
 	private void placeNewPiece(char column, int row, ChessPiece piece) {
